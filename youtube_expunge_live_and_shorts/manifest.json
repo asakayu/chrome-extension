@@ -1,0 +1,12 @@
+{
+    "name": "expunge-youtube-lives-and-shorts",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "expunge live archieve and shorts of youtube registered videos.",
+    "content_scripts": [
+        {
+          "matches": ["https://www.youtube.com/feed*"],
+          "js": ["content.js"]
+        }
+    ]
+}
